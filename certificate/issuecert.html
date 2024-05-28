@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="lightgray">
+    <div>
+        <nav style="display: flex; gap: 6px; align-items: center;justify-content: space-between;">
+            <div style="padding-top: 2%; padding-left: 2%; text-align: center; font-weight: 600; font-size: 130%;">Certificate Dapp</div>
+            <div style="display: flex; align-items: center; gap: 7px; padding-right: 2%;">
+                <a href="home.html">
+                    <button class="button-43" style="border-radius: 0.5rem; font-size: 100%;  padding:0.8rem 0.5rem;  cursor: pointer;background-color:  lightgray; color: black; border: none;">Home</button>
+                </a>
+                <div>
+                    <button class="button-43" style=" font-size: 90%;  padding:0.2rem 0.4rem;  cursor: pointer;background-color:  rgb(94, 130, 209); color: white; border: none;">Issue Certificate</button>
+                </div>
+            </div> 
+        </nav>
+    </div>
+    <div style="width:1000px; height: 500px; background-color: white; margin-top: 3%; margin-left: 5%; margin-right: 8%;">
+        <div style="padding-top: 4%;padding-left: 7%; font-size: 130%;">Issue New Certificate</div>
+        <form style="margin-left: 7%; margin-top: 2%;">
+        <div>
+            <div>Select Course*</div>
+            <div style="padding-top: 1%;">
+                <select name="course" id="courseid" style="width: 355px; height: 25px;">    
+                    <option value="Select Course">Select Course</option>
+                    <option value="Certified Blockchain Assosiate">Certified Blockchain Assosiate</option>
+                    <option value="Blockchain developer">Blochain Developer</option>
+                    <option value="Blochain Architect">Blockchain Architect</option>
+                </select>
+            </div>
+        </div>
+
+        <div style="padding-top: 2%;">
+            <div>Certificate ID*</div>
+            <div style="padding-top: 1%;">
+                <input type="text" placeholder="certificate ID" style="width: 350px; height: 20px;"/>
+            </div>
+        </div>
+
+        <div style="padding-top: 2%;">
+            <div>Candidate Name*</div>
+            <div style="padding-top: 1%;">
+                <input type="text" placeholder="Enter certificate ID to view" style="width: 350px; height: 20px;"/>
+            </div>
+        </div>
+
+        <div style="padding-top: 2%;">
+            <div>Grade*</div>
+            <div style="padding-top: 1%;">
+                <select name="course" id="courseid" style="width: 355px; height: 25px;">    
+                    <option value="Select Grade">Select Grade</option>
+                    <option value="S">S</option>
+                    <option value="A+">A</option>
+                    <option value="A">A</option>
+                    <option value="B+">B</option>
+                    <option value="B">B</option>
+                    <option value="C+">C</option>
+                    <option value="C">C</option>
+                </select>
+            </div>
+        </div>
+
+        <div style="padding-top: 2%;">
+            <div>Issue Date*</div>
+            <div style="padding-top: 1%;">
+                <input type="date" value="Enter certificate ID to view" style="width: 350px; height: 20px;"/>
+            </div>
+        </div>
+
+        <div style="padding-top: 2%;">
+            <a href="certificatepage.html">
+                <input type="button" style="background-color:aqua;  padding:0.2rem 0.4rem; border: none;" value="Issue Certificate"/>
+            </a>
+        </div>
+        
+        </form>
+    </div>
+
+
+</body>
+</html>

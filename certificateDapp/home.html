@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        nav {
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
+            align-items: center;
+            padding: 10px;
+            
+        }
+        .button {
+            padding: 10px 15px;
+            font-size: 14px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            color: white;
+        }
+        .button-home {
+            background-color: rgb(94, 130, 209);
+        }
+        .button-issue {
+            color: black;
+            background-color: white;
+            border: none;
+        }
+        .header {
+            text-align: center;
+            font-weight: 600;
+            font-size: 2.5em;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .certificate-img {
+            text-align: center;
+            padding-top: 20px;
+        }
+        .search {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 20px;
+        }
+        input[type="text"] {
+            border: 2px solid rgb(63, 219, 224);
+            padding: 10px;
+            border-radius: 5px;
+            width: 70%;
+            max-width: 300px;
+        }
+        .search-button {
+            padding: 10px 20px;
+            background-color: rgb(63, 219, 224);
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .header {
+                font-size: 1.8em;
+            }
+            .certificate-img img {
+                width: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <button class="button button-home">Home</button>
+        <a href="issuecert.html">
+            <button class="button-issue">Issue Certificate</button>
+        </a>
+    </nav>
+
+    <div class="header">Certificate Dapp</div>
+    <div class="certificate-img">
+        <img src="/2000920.png" width="250px" alt="Certificate Image">
+    </div>
+    <div class="search">
+        <input type="text" placeholder="Enter certificate ID to view">
+        <button class="search-button">Search</button>
+    </div>
+</body>
+</html>
